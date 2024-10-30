@@ -1,0 +1,34 @@
+.RegiForm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    padding: 30px;
+}
+
+
+
+
+.wapper button.regi_button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.wapper button.regi_button:hover {
+    background: #e0e0e0;
+}
+
+.wapper button.regi_button:active {
+    transform: scale(0.95);
+}
+

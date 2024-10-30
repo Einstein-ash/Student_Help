@@ -1,0 +1,134 @@
+
+.comment {
+    color : white;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    padding: 30px;
+}
+
+
+.wapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.wapper h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(188, 13, 13);
+    padding: 0 45px 0 20px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-box input:focus {
+    border-color: white;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+    margin: 10px 0 20px;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+
+.wapper button.login_button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.wapper button.login_button:hover {
+    background: #e0e0e0;
+}
+
+.wapper button.login_button:active {
+    transform: scale(0.95);
+}
+
+
+.register-link {
+    font-size: 14px;
+    margin-top: 15px;
+    color: white;
+}
+
+.register-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
